@@ -1,1 +1,76 @@
+/*Mason Ford
+05/24/2026*/
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #f4f7fb, #e8eef7);
+    color: #222;
+    line-height: 1.6;
+}
 
+/* Header section */
+header {
+    text-align: center;
+    background-color: #1f3b57;
+    color: white;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0 0 15px;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #2f5d8a;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #1f3b57;
+}
+
+/* Main content sections */
+main {
+    padding: 30px 15px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 6px solid #2f5d8a;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #1f3b57;
+    color: white;
+    font-size: 0.9rem;
+    padding: 12px;
+    margin-top: 20px;
+}
