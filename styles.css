@@ -1,6 +1,10 @@
 /*Mason Ford
 05/24/2026*/
 /* General page styling */
+html, body {
+    min-height: 100%;
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
