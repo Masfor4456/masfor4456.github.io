@@ -45,7 +45,7 @@ nav a {
     background-color: #2f5d8a;
     padding: 10px 16px;
     border-radius: 6px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
@@ -67,8 +67,42 @@ section {
     border-left: 6px solid #2f5d8a;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
 }
 
+section:hover {
+    transform: scale(1.02);
+}
+/* Project table styling */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: #2f5d8a;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+tfoot td {
+    font-style: italic;
+    text-align: center;
+}
 /* Footer */
 footer {
     text-align: center;
