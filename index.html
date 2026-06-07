@@ -31,60 +31,85 @@
     <!-- Main Content -->
     <main>
 
+        <!-- About Section -->
         <section id="about">
             <h2>About</h2>
-            <p>This section will be containing information about me.</p>
+            <p>This section will contain information about me.</p>
         </section>
 
-       <section id="projects">
-    <h2>Projects</h2>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
 
-    <table>
-        <caption>Sample Project Portfolio</caption>
+            <table>
+                <caption>Sample Project Portfolio</caption>
 
-        <colgroup>
-            <col style="background-color: #e8eef7;">
-            <col>
-            <col style="background-color: #e8eef7;">
-        </colgroup>
+                <colgroup>
+                    <col style="background-color: #e8eef7;">
+                    <col>
+                    <col style="background-color: #e8eef7;">
+                </colgroup>
 
-        <thead>
-            <tr>
-                <th>Project Name</th>
-                <th>Description</th>
-                <th>Image Placeholder</th>
-            </tr>
-        </thead>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Image Placeholder</th>
+                    </tr>
+                </thead>
 
-        <tbody>
-            <tr>
-                <td>Audio Sandbox</td>
-                <td>
-                    A web application for experimenting with audio processing
-                    and sound manipulation.
-                </td>
-                <td>[Image Coming Soon]</td>
-            </tr>
+                <tbody>
+                    <tr>
+                        <td>Audio Sandbox</td>
+                        <td>
+                            A web application for experimenting with audio
+                            processing and sound manipulation.
+                        </td>
+                        <td>[Image Coming Soon]</td>
+                    </tr>
 
-            <tr>
-                <td>Portfolio Website</td>
-                <td>
-                    A personal website showcasing projects, skills,
-                    and contact information.
-                </td>
-                <td>[Image Coming Soon]</td>
-            </tr>
-        </tbody>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>
+                            A personal website showcasing projects, skills,
+                            and contact information.
+                        </td>
+                        <td>[Image Coming Soon]</td>
+                    </tr>
+                </tbody>
 
-        <tfoot>
-            <tr>
-                <td colspan="3">
-                    Additional projects will be added as development continues.
-                </td>
-            </tr>
-        </tfoot>
-    </table>
-</section>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            Additional projects will be added as development continues.
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <form class="contact-form">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <input type="submit" value="Send Message">
+
+            </form>
+        </section>
 
     </main>
 
