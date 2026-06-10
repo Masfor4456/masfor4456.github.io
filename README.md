@@ -3,7 +3,13 @@
 ## Overview
 
 This project is a personal portfolio website developed using HTML5 and CSS3. The website demonstrates fundamental web development concepts including semantic HTML, responsive design, Flexbox layouts, CSS transitions, forms, tables, and GitHub Pages deployment.
+## Local Testing with XAMPP
 
+The website was successfully hosted locally using XAMPP.
+
+### Screenshot
+
+![XAMPP Local Host Screenshot](image.png)
 ## Features
 
 * Responsive webpage layout
